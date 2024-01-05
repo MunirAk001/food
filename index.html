@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button  class="all" value="all">all</button>
+    <button  class="brc" value="brc">breackfest</button>
+    <button  class="lunch" value="lunch">lunch</button>
+    <button  class="shecks" value="shecks">shecks</button>
+    <button  class="dinner" value="dinner">dinner</button>
+    <input  class="serch" type="text" >
+
+    <button class="btnAdd">NEW FOOD</button>
+    <dialog class="addModal">
+        <form class="addForm">
+            <input type="text" name="avatar" placeholder="Image">
+            <input type="text" name="title" placeholder="Name">
+            <input type="text" name="praice" placeholder="Praice">
+            <input type="text" name="info" placeholder="Info">
+
+            <button type="submit">Save</button>
+        </form>
+    </dialog>
+
+    <dialog class="editModal">
+        <form class="editForm">
+            <input type="text" name="avatar" placeholder="Image">
+            <input type="text" name="title" placeholder="Name">
+            <input type="text" name="praice" placeholder="Praice">
+            <input type="text" name="info" placeholder="Info">
+
+            <button type="submit">Save</button>
+        </form>
+    </dialog>
+
+
+    <dialog class="infoModal">
+
+<div class="infodiv">
+
+</div>
+
+
+    </dialog>
+    <div class="box"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>   
+    <script src="main.js" type="module"></script>
+
+
+
+<!-- 
+{
+  "data": [
+    {
+      "avatar": "/Image/hh.png",
+      "title": "munir",
+      "praice": "100",
+      "info": "mbbkaka",
+      "status": false,
+      "id": 4,
+      "value": "shecks"
+    },
+    {
+      "avatar": "/Image/hh.png",
+      "title": "",
+      "praice": "",
+      "info": "",
+      "status": false,
+      "id": 5
+    }
+  ]
+} -->
+
+</body>
+</html>

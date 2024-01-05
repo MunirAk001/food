@@ -1,0 +1,26 @@
+.img{
+    height: 200px ;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    margin-top: 5px;
+
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+
+}
+.texts {
+    background-color: rgselectsBTNb(190, 188, 188);
+    width: 400px;
+    margin-top: 5px;
+    
+
+}
+.selectsBTN{
+padding: 10px;
+border-radius: 5px ;
+border:  2px solid rgb(255, 221, 0);
+}
